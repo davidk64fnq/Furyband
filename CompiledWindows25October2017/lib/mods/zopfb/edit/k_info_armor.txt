@@ -1,0 +1,39 @@
+## Name		[]	-hit	lbs  $		rarity	other
+
+tval 36
+ 1 Rag		1	 0	 2lbs $4	0/1
+ 2 Robe		2	 0	 2lbs $1	1,50/1
+ 4 Soft Leather	4	 0	 9lbs $35	3/1
+10 Padded	4	 0	 6lbs $60	5/1	
+ 5 Soft Stud	5	 0	 9lbs $150	3/1
+ 6 Hard Leather	6	-1	10lbs $200	5/1
+ 9 Cord Armor	6	 0	 8lbs $250	8/1
+ 7 Hard Stud	7	-1	11lbs $450	10/1
+ 8 Mumak Hide	8	-1	11lbs $400	15/1
+12 Jerkin	7	0	 7lbs $550	20/3
+11 LeatherScale	11	-1	14lbs $450	15/1
+16 Thunderlord	9	0	 6lbs $900	25/1	RES_FIRE/COLD
+99 Eagle Down	9+2	0	 6lbs $2000	24/5:35/3 RES_FIRE/COLD Levitate
+ 2 Magical Robe	2+15	0	 2lbs $3000	35/4
+52 Psychoactive	10	0	 2lbs $1000	50/6 	STEALTH MANA RES_ELEC REGEN
+
+tval 37
+ 1 Rusty	14-8	-5	20lbs $550	25/1
+ 2 Ring Cuirass	12	-1	20lbs $500	20/1
+ 3 MetalCuirass	13	-1	25lbs $600	25/1
+33 Golden Ring	12	-1	15lbs $750	35/7
+ 4 ChainCuirass	14	-2	22lbs $750	25/1
+ 5 Full Ring	15	-2	23lbs $800	25/1
+ 6 Augmented	16	-2	27lbs $900	30/1
+ 7 Full Chain	16	-2	25lbs $950	30/1
+ 8 Bar Chain	18	-2	28lbs $950	35/1
+10 Splint	19	-2	25lbs $1150	35/1
+ 9 Brigadine	20	-3	29lbs $1100	35/1
+12 PartialPlate	22	-3	26lbs $1200	40/1
+13 Lamellar	23	-3	34lbs $1250	45/1
+15 Full Plate	25	-3	38lbs $1350	45/1
+18 Ribbed	28	-3	38lbs $1500	50/1
+22 Crystal	15+5	-1	17lbs $3300	45/8:60/5 RES_DARK/LITE
+20 MithrilChain 28	 0	15lbs $7000	55/3
+30 GalvornPlate	40	-4	42lbs $15000	75/4
+25 MithrilPlate 35	-1	30lbs $15000	60/5

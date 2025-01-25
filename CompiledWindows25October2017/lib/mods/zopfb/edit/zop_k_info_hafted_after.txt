@@ -1,0 +1,37 @@
+N: Name			dam	cost	weight	level/	flags
+								rarity	(CH = Could be wielded 2hand, 2H = 2hand required)
+
+ 2 Whip			1d4	 3lbs	$30		3/1
+ 7 Chain Whip		2d4	 8lbs $78		6/1
+31 Jutte			1d7	15lbs $600		22/1		10
+ 4 Ethereal Whip		1d8	 1.5s	$3000		30/10		VORPAL WOUNDING
+ 1 Club			3d2	10lbs	$3		0/1
+26 Rungu			3d2	12lbs $100		2/2		THROWING
+
+21 Nunchuks			3d3	14lbs	$100		10/1		CH
+ 3 Quarterstaff		3d3	15lbs	$120		12/1		CH Armr:5
+11 3 Piece Rod		3d3	12lbs	$250		20/3		CH
+
+14 Metal Staff		2d5	20lbs	$170		10/2		CH IGNORE_FIRE Armr: 5
+25 Tonfa			1d10	10lbs $188		10/3		2H Armr:9
+ 5 Mace			3d4	12lbs	$170		5/1		CH
+ 6 Ball-and-Chain		4d3	15lbs	$200		10/1		CH
+24 Kunai			2d6	10lbs $230		10/2		THROWING Armr:2
+13 Flail			3d4	13lbs	$280		10/2
+
+ 8 War Hammer		3d5	12lbs	$245		10/1		CH
+17 Hand Scythe		5d3	10lbs	$355		15/3		Armr: 1
+12 Morning Star		5d3	15lbs	$396		13/1		CH
+
+ 9 Rope Dart		7d2	9lbs	$422		15/1		2H
+10 Lucerne Hammer		4d5	15lbs	$476		20/1		CH
+15 Lead Mace		4d5	18lbs	$522		20/2		CH IGNORE_FIRE
+22 Firestar			5d4	15lbs	$6000		55/5		CH IGNORE_FIRE BRAND_FIRE RES_FIRE
+
+18 2H Flail			6d4	28lbs	$690		35/1		2H
+23 Snake Blades		4d4	19lbs $1111		50/2
+
+19 Great Hammer		7d4	40lbs	$2000		55/5		CH
+
+16 Chained Comet		7d5	50lbs	$20k		90/15		2H BRAND_COLD/ELEC/FIRE RES_* SH_*
+20 Mace Disruption	6d6	40lbs	$5300		70/5		2H SLAY_UNDEAD SLAY_EVIL

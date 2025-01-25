@@ -1,0 +1,27 @@
+# Floor
+F:.:1:6
+
+# Marker
+F:,:172:6
+
+# Princess
+F:p:1:6:969
+
+# Lit permanent wall
+F:x:61:6
+
+# Lit glass wall
+F:G:188:6
+
+# Dungeon layout
+D:                   
+D:     xxxx.xxxx     
+D:     x..x.x..x     
+D:  xxxx.,...,.xxxx  
+D:  x.....GGG.....x  
+D:  x.xxx.GpG..xx.x  
+D:  x..,..GGG..,..x  
+D:  xxxx...,...xxxx  
+D:     x..x.x..x     
+D:     xxxx.xxxx     
+D:                   

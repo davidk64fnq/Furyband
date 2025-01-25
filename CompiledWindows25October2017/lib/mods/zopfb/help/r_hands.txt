@@ -1,0 +1,31 @@
+~~~~~01|Hands
+~~~~~02|Races|Hands
+#####R=== Hands ===
+
+#####GDescription
+Material hands controlled by unknown forces.
+They intrinsically able to do hand-based skills
+They are quite stealthy, but bad at searching.
+
+#####GStat Modifiers
+Strength        +0   
+Intelligence    +0   
+Wisdom          +0   
+Dexterity       -2   
+Constitution    +0   
+Charisma        +0       
+Hit Dice Sides  5         
+Exp Penalty     +80%
+
+Combat                       0.000           [0.400]
+  Weaponmastery              0.500           [0.750]
+  Archery                    0.500           [0.500]     
+  Barehand-combat            2.000           [0.750]
+Sneakiness                   0.500           [0.500]
+  Disarming                  0.500           [0.500]
+  Dodging                    0.500           [0.500]
+  Backstab                   0.500           [0.500]
+  Stealing                   0.500           [0.500]
+Powers                       0.000           [0.000]
+  Devices                    0.500           [0.500]
+

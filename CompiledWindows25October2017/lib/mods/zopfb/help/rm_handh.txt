@@ -1,0 +1,16 @@
+~~~~~01|PairAhead
+~~~~~02|Race Modifiers|PairAhead
+#####R=== Pair Ahead ===
+
+#####GDescription
+Add a skull to wear magic headgear!
+
+#####GStat Modifiers
+Strength        +0   
+Intelligence    +0   
+Wisdom          +0   
+Dexterity       +0   
+Constitution    +0   
+Charisma        +0       
+Hit Dice Sides  +0         
+Exp Penalty     +150%

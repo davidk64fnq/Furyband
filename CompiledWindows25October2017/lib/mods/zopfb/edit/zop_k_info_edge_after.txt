@@ -1,0 +1,50 @@
+N: Name			dam	cost	weight	level/		flags
+								rarity		(CH = Could be wielded 2hand, 2H = 2hand required)
+
+99 Necro Teeth		1d4
+
+ 1 Broken Dagger		1d1	$1	0.6bs		0/2
+ 2 Broken Sw		2d2	$2	 4lbs		0/2
+ 4 Dagger			1d5	$10	1.2bs		0/1
+10 Short			1d7	$48	 8lbs		5/1
+ 8 Small			1d8	$90	7.5bs		5/1
+ 9 Basilard			1d9	$220	 8lbs		10/3
+31 Bluesteel		1d7	$1000	 5lbs		20/10:40/5		VORPAL
+
+ 5 Gauche			2d3	$30	 3lbs		3/1
+11 Sabre			3d2	$78	 5lbs		4/1
+15 Tulwar			2d4	$75	10lbs		6/1
+14 Khopesh			2d4	$190	14lbs		10/2
+
+44 Stiletto			2d3	$300	1.5bs		0/2:10/2		WOUNDING THROWING
+ 3 Crypt Dagger*		3d2	$5000	 2lbs		20/15:60/10		BRAND/RES_POIS
+50 Spiked Dagger		2d4	$3000	1.5bs		30/20:60/10		VORPAL WOUNDING THROWING
+
+12 Cutlass			2d5	$185	11lbs		5/1
+80 Wakizashi		3d3	$222	10lbs		10/1
+32 Shadow			2d5	$2000	4.5bs		48/4:60/2		RES/BRAND_DARK STEALTH
+ 6 Runic*			3d3	$9900	 9lbs		40/10:60/5		INVIS STEALTH
+
+19 Nagamaki*		5d2	$301	14lbs		8/2			CH
+13 Estoc*			1d15	$350	 7lbs		10/2
+17 Long Sw			3d4	$300	13lbs		10/1
+16 Broad			4d3	$265	15lbs		15/1
+34 Long Bluesteel*	4d3	$5670	10lbs		40/15:60/10		VORPAL
+35 Fireblade		2d6	$6000	 3lbs		40/5:60/1		BRAND/RES_FIRE SH_FIRE
+33 Dark Sw			3d4	$800	 7lbs		25/3:80/2		ANTIMAGIC_50 RES/BRAND_DARK
+
+23 Claymore			2d8	$600	20lbs		20/1			CH
+24 Espadon			2d9	$690	21lbs		20/1			2H
+20 Katana			4d4	$700	12lbs		25/1			CH
+ 7 Snake Blade		4d4	$1211 19lbs		50/2
+25 2handed			3d6	$750	21lbs		30/1			2H
+
+26 Flamberge		3d7	$800	23lbs		40/2			2H
+28 Executioner's		4d5	$850	26lbs		40/1			2H
+29 Zweihander		4d6	$1180	28lbs		40/3			2H
+
+22 Great Scimitar		5d5	$1400	25lbs		50/5			2H
+
+30 Blade Chaos		6d5	$4000	18lbs		70/8			CHAOTIC
+
+36 Diamond Edge		7d5	$10k	15lbs		90/16			VORPAL

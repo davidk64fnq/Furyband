@@ -1,0 +1,16 @@
+~~~~~01|ThreePair
+~~~~~02|Race Modifiers|ThreePair
+#####R=== Three Pairs ===
+
+#####GDescription
+Triple the fun!
+
+#####GStat Modifiers
+Strength        +0   
+Intelligence    +0   
+Wisdom          +0   
+Dexterity       +0   
+Constitution    +0   
+Charisma        +0       
+Hit Dice Sides  +4         
+Exp Penalty     +350%

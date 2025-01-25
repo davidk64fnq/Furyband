@@ -1,0 +1,59 @@
+# Special level "DeaThwaTch" in The Orc Caves
+#
+# CreaTed for PernAngband 5.0.1 on 18/8/01
+# AlTered by MynsTral (mynsTral@Thehelm.com)
+
+%:special.txt
+
+### GuaranTeed monsTers
+# Mirkwood spiders
+F:a:1:88:277
+
+# Spider QuylThulg
+F:b:1:88:753
+
+# Hill orc on normal floor
+F:c:1:88:964
+
+# Black orc on normal floor
+F:d:1:88:963
+
+# dirt
+F:,:88:0
+
+
+### GuaranTeed iTems
+# STing on normal floor
+F:1:1:0:0:0:0:239
+
+
+
+### Dungeon Design
+D:ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
+D:tttttTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTt
+D:tt,,,>,,Tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttaaaatt
+D:tT,d,,,,,d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ttttttttttttttttttttttttttttttttttttttttttttaaaatt
+D:tT,a,,,,Ttttttttatttttttttttttttttttttttattttttttttttttttt,ttttttttttttttatttttttttttttttttttttttttttttt,tttt
+D:tTTTTTTTTTTTTTTTTTTTTTTTTT,TTTTTTTTTTTTTTttttttttttttttttt,tttttttttttttt,tttttttttttttttttttttttttttttt,tttt
+D:tTttttaaaatttttttttttttttt,tttttttttttttttttttttttt,tttttt,,,,,,,,,,,,,,,,tttttttttttttttttttttttttttttt,tttt
+D:tTtttta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ttttttttttttttttttttt,tttttttttttttttttttttttttttttt,tttt
+D:tTTTTTTTTTTTTTTTTTTTTTTTTT,TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTtttttttttttttttt,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,tttt
+D:tTtttttttttttttttttttttttt,ttttttttttttttttttttttt###tttttttttttttttttttt,ttttttttttttttttttttttttttttttttttt
+D:tTtttttttttttttttttttttttt,ttttttttttttttttttttttt#b#TTTTTTTTTTTTTTTTTTTT,TTTTTTTTTTTTTTTTTTTTTTTTTTTtttttttt
+D:tTtttttttttttttttttttttttt,ttttttttttttttttttttttt#1#tatttttttttttttttttt,ttttttttttttttttttttttttttttttttttt
+D:tTtttttttttttttttta,,,,,,,,,,,,,,,,,,,,ttttttt#####c#####tttttttttttttttt,ttttttttttttttttttttttttttttttttttt
+D:tTtttttttttttttttttttttttt,ttttttttttt,ttttttt#b,,,,,,,b#tttttttttttttttt,ttttttttttttttttttttttttttttttttttt									
+D:tTtttttttttttttttttttttttt,ttttttttttt,ttttttt#####+#####tttttttttttttttt,ttttttttttttttttttttttttttttttttttt
+D:tTttta,,,,,,,,,,,,,,,,a,,,,ttttttttttt,,,,,,,,,,,,,,atttttttttttttttttttt,ttttttttttttttttttttttttttttttttttt
+D:tTTTTT,TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTaaaatttttttttttttttttttt,ttttttttttttttttttttttttttttttttttt
+D:tTtttt,tttttttttttttttttaTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT,TTTTTTTTTTttttttttttttttttttttttttt
+D:tTtttt,,,,,,,,,,,,d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,a,,aattttttttttttttttttttttttttttttttt
+D:tTtttttttttttttttttttttttttattttttttttttattttttttttttttttttttttttttttttttaaattttttttttttttttttttttttttttttttt
+D:tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTaaattttttttttttttttttttttttttttttttt
+D:tTttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
+D:tTtttttttttttttttttttttttttttttttttttttttattttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
+D:tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTt
+D:ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
+
+### STarTing LocaTion
+P:5:6

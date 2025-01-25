@@ -1,0 +1,26 @@
+N: Name			dam	cost	weight	level/	AC	Flags
+								rarity		(CH = Could be wielded 2hand, 2H = 2hand required)
+
+ 4 Awl-Pike			1d8	$340	16lbs		10/1		9	CH
+ 7 Broad Spear		1d9	$240	10lbs		14/3		5
+ 3 Sickle			2d3	$110	 7lbs		10/3		1
+ 2 Spear			2d4	$36	 5lbs		5/1		12	THROWING
+
+ 8 Pike			2d5	$358	16lbs		15/1		8	CH
+ 5 Trident			2d5	$120	 7lbs		5/1		4	CH THROWING
+16 Guisarme			2d5	$320	16.5s		21/1		8	CH
+
+32 Kunai			2d6	$800	15lbs		12/1		0
+31 Jutte			2d7	$1500	20lbs		15/1		0
+ 6 Fauchard			3d4	$301	15.5s		18/2		8	CH
+
+13 Glaive			3d5	$363	19lbs		20/1		5	CH
+15 Halberd			3d7	$430	19lbs		25/1		10	CH
+
+17 Scythe			5d3	$800	25lbs		45/1		1	CH
+
+26 Trifurcate Spear	3d7	$400	14lbs		35/3		5
+20 Lance			4d6	$230	30lbs		10/1		4	2H
+
+30 Scythe Slicing		8d4	$10k	25lbs		80/20		2	2H VORPAL WOUNDING
+29 Heavy Lance		6d8	$700	40lbs		43/2		5	2H

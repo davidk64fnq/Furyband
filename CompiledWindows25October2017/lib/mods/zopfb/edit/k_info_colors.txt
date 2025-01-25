@@ -1,0 +1,46 @@
+DARK                0  /* 'd' */   /* 0,0,0 */
+WHITE               1  /* 'w' */   /* 4,4,4 */
+SLATE               2  /* 's' */   /* 2,2,2 */
+ORANGE              3  /* 'o' */   /* 4,2,0 */
+RED                 4  /* 'r' */   /* 3,0,0 */
+GREEN               5  /* 'g' */   /* 0,2,1 */
+BLUE                6  /* 'b' */   /* 0,0,4 */
+UMBER               7  /* 'u' */   /* 2,1,0 */
+L_DARK              8  /* 'D' */   /* 1,1,1 */
+L_WHITE             9  /* 'W' */   /* 3,3,3 */
+VIOLET             10  /* 'v' */   /* 4,0,4 */
+YELLOW             11  /* 'y' */   /* 4,4,0 */
+L_RED              12  /* 'R' */   /* 4,0,0 */
+L_GREEN            13  /* 'G' */   /* 0,4,0 */
+L_BLUE             14  /* 'B' */   /* 0,4,4 */
+L_UMBER            15  /* 'U' */   /* 3,2,1 */
+
+
+deedee610@verizon.net
+
+FLAME IMPERISHABLE:
+ (obj.tval == TV_SWORD) and (obj.sval == SV_LONG_SWORD) then
+	return TRUE
+ (obj.tval == TV_MSTAFF) and (obj.sval == SV_MSTAFF) then
+	return TRUE
+ (obj.tval == TV_BOW) and (obj.sval == SV_HEAVY_XBOW) then
+	return TRUE
+ (obj.tval == TV_DRAG_ARMOR) and (obj.sval == SV_DRAGON_POWER) then
+	return TRUE
+ (obj.tval == TV_HAFTED) and (obj.sval == SV_LUCERN_HAMMER) then
+	return TRUE
+ (obj.tval == TV_POLEARM) and (obj.sval == SV_TRIDENT) then
+	return TRUE
+ (obj.tval == TV_AXE) and (obj.sval == SV_BATTLE_AXE) then
+	return TRUE
+ (obj.tval == TV_BOW) and (obj.sval == SV_LONG_BOW) then
+	return TRUE
+ (obj.tval == TV_BOOMERANG) and (obj.sval == SV_BOOM_METAL) then
+	return TRUE
+ (obj.tval == TV_BOW) and (obj.sval == SV_SLING) then
+	return TRUE
+ (obj.tval == TV_SWORD) and (obj.sval == SV_RAPIER) then
+	return TRUE
+ (obj.tval == TV_AMULET) and (obj.sval == SV_AMULET_SPELL) then
+	return TRUE
+

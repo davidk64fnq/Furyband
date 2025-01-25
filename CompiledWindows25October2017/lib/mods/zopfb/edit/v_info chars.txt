@@ -1,0 +1,14 @@
+X: perm wall
+#: regular wall
++: secret door
+G: glass wall
+I: illusion wall
+
+*: item + trap
+
+,: monster +3 and/or regular item
+&: monster +5 levels
+@: monster +11 levels
+9: monster +9 levels + good item
+8: monster +40 levels + great item
+A: good item +12 levels

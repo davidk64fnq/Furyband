@@ -1,0 +1,33 @@
+N: Name		dam	cost	weight	level/	flags
+							rarity	(CH = Could be wielded 2hand, 2H = 2hand required)
+
+ 1 Hatchet		1d5	$120   6lbs		10/2		CH
+
+ 3 Bearded		1d6	$100 3.5lbs		15/1		CH THROWING
+
+ 8 Light War	2d5	$300 	 14lbs	16/1
+ 2 Cleaver		2d5	$175  11lbs		13/1
+ 6 Crusader		2d5	$300  13lbs		10/1
+
+10 Beaked		2d6	$408  18lbs		15/1		2H
+11 Broad		2d6	$304  16lbs		15/1		CH
+
+22 Battle		2d8	$334  17lbs		15/1		CH
+31 Moon Axe		2d8	$334  22lbs		40/20		CH LITE1 RES_DARK
+
+14 War Pick		2d10	$450  21lbs		20/1		2H
+
+ 7 Reaper		3d4	$420  15lbs		22/1		CH
+ 4 Double		3d6	$450  20lbs		25/1		2H
+32 Frostreaver	3d6	$6000 22lbs		50/15		CH RES/BRAND_COLD
+
+25 Great		4d4	$500  23lbs		40/1		2H
+28 Lochaber		4d6	$750  25lbs		45/1		CH
+
+30 Slaughter	5d7	$6000 30lbs		70/8		SLAY_ANIMAL
+
+
+
+
+
+

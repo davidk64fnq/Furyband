@@ -1,0 +1,13 @@
+weight
+5 * (player + weapon hit bonus)
+50 * xtra_crit
+melee_style@150
+
+if total >= rand(5000) then do critical
+
+weight + rand(650) + criticalhits@400
+
+<400   2x + 5
+<700   2x + 10
+<1300  3x + 15
+else 3.5x + 25

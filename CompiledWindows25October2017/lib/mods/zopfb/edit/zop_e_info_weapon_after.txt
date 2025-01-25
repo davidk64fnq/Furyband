@@ -1,0 +1,41 @@
+T:21,22,23,24	rarity	depth	cost		notes
+
+*Aman		4:44	10	20000
+*Defender	4:44	10	15000
+Blessed		1:44	0	5000
+*Greater Vit	8:50	10	30000
+*Westernesse	4:44	10	20000
+*Extra Attacks	2:44	0	10000
+*Slaying	1:44	0	2500
+Spinning	1:44	0	9000 		+5 hit/dam
+(Elements)	4:44	0	3000-5000
+Chaotic		1:44	0	10000
+Sharp		2:44	0	5000
+Earthquakes	1:44	0	4000
+Slay etc	6:44	0	2500-3500
+* *Slay etc*	12:44	0	4000-8000
+Vampiric	2:44	0	10000
+* *Defender*	12:44	20	50000
+of Tulkas	9:44	30	45000
+Gondolin	1:44	0	25000
+Spectral	1:5	0	5000
+*Elemental	8:44	10	26000
+of Fury		1:66	40	20000
+*Good Health	2:44	0	10000
+*Corsair	5:45	20	30000
+Noldor		25:100	40	50000
+Vanyar		25:100	40	50000
+Nandor		25:100	40	50000
+Avari		25:100	40	50000
+Unmagic		2:44	0	8000
+*Telchar	1:44	0	5000
+*Holy Avenger	2:60	20	20000
+*Doriath	2:20	25	5000
+*Light/Black	2:44	0	3500
+*Extraordinary	12:44	40	35000
+Deathly		4:44	75	45500
+Slay Vamp	6:44	0	3500
+*Balanced	1:44	0	5000
+*Chargeable	24:44	50	500000
+FirAcd/EleFrs	8:44	10	9000
+Envy		9:44	10	7000

@@ -1,0 +1,36 @@
+N: Name			dam	cost	weight	level/	AC	Flags
+								rarity		(CH = Could be wielded 2hand, 2H = 2hand required)
+
+ 3 Sickle			2d3	$99	 7lbs		5/1		1
+ 4 Naginata			1d8	$111	16lbs		2/1		9	CH
+ 2 Spear			1d9	$186	 8lbs		5/1		6	THROWING
+
+33/34 Sticks
+
+10 Spetum			3d3	$261	14lbs		5/1		6	2H
+ 8 Pike			2d5	$358	16lbs		12/1		8	CH
+ 5 Trident			2d5	$220	13lbs		8/1		4	CH THROWING
+
+11 Yari			2d6	$266	15lbs		8/1		6	2H
+16 Guisarme			2d6	$320	16.5s		10/1		8	CH
+ 6 Fauchard			3d4	$381	15.5s		10/2		8	CH
+ 7 Broad Spear		1d12	$440	10lbs		15/3		5
+
+13 Glaive			3d5	$563	19lbs		20/1		5	CH
+14 Electropike		3d5	$4224 19lbs		45/6		8	CH BRAND/RES _ELEC
+
+17 Scythe			5d3	$505	25lbs		30/1		2	CH
+18 Bill			2d9	$444	17lbs		30/1		8	CH
+
+15 Halberd			3d7	$630	19lbs		35/1		10	CH
+26 Trifurcate Spear	3d7	$602	14lbs		35/1		5	CH
+28 Evening Reaper		6d3	$2111 24lbs		40/3		4	CH BRAND/RES_DARK LITE1
+ 1 Morning Reaper		6d3	$2333	24lbs		40/3		4	CH BRAND/RES_LITE LITE1
+
+20 Lance			4d6	$230	30lbs		10/1		4	2H
+28 Lochaber	Axe		4d6	$1100 24lbs		45/3		2	CH
+ 9 Blood Spear		2d12  $3999 10lbs		35/10:70/5	4	CH REGEN VAMPIRE
+19 Bluestl Brandistock	6d5	$4560	17lbs		40/20:60/10	6	CH VORPAL
+
+29 Heavy Lance		6d6	$1700	40lbs		55/2		5	2H
+30 Scythe Slicing		9d4	$10k	25lbs		80/20		2	2H VORPAL WOUNDING

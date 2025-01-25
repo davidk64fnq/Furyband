@@ -1,0 +1,48 @@
+N: Name			dam	cost	weight	level/	flags
+								rarity	(CH = Could be wielded 2hand, 2H = 2hand required)
+
+
+ 1 Broken Dagger		1d1	$1	 5lbs		0/2
+ 2 Broken Sw		2d2	$2	 3lbs		0/2
+ 4 Dagger			1d5	$10	1.2bs		0/1
+10 Short			1d7	$90	 8lbs		5/1
+ 8 Small			1d8	$48	7.5bs		5/1
+ 9 Basilard			1d8	$220	 8lbs		15/3
+31 Bluesteel		1d6	$6000	 5lbs		60/20		VORPAL
+
+ 5 Gauche			2d3	$25	 3lbs		3/1
+12 Cutlass			2d5	$85	11lbs		5/1
+ 7 Rapier			2d4	$42	 4lbs		5/1
+15 Tulwar			2d4	$200	10lbs		5/1
+14 Khopesh			2d4	$190	13lbs		10/2
+80 Wakizashi		3d3	$1000	10lbs		10/1
+
+44 Stiletto			2d3	$1000	1.5bs		0/2:10/2	WOUNDING
+50 Spiked Dagger		2d4	$300	1.5bs		10/1:50/1	VORPAL WOUNDING
+32 Shadow			2d5	$2000	4.5bs		48/4:60/2	RES/BRAND DARK STEALTH
+35 Fireblade		2d6	$6000	 3lbs		60/20		BRAND_FIRE 
+
+11 Sabre			3d3	$50	 5lbs		5/1
+20 Katana			3d4	$400	12lbs		20/1		CH
+17 Long Sword		3d4	$300	13lbs		10/1
+
+18 Scimitar			4d3	$250	13lbs		10/1
+16 Broad			4d3	$255	15lbs		10/1
+
+23 Claymore			2d8	$600	20lbs		40/2		CH
+24 Espandon			2d9	$600	20lbs		40/3		2H
+
+21 Hand & Half Sw		4d4	$350	14lbs		15/1		CH
+
+33 Dark Sword		3d6	$500	 7lbs		25/1		ANTIMAGIC_50 BRAND_DARK
+26 Flamberge		3d7	$600	23lbs		40/2		2H
+
+28 Executioner's		4d5	$850	26lbs		40/1		2H
+25 2handed			4d6	$775	20lbs		30/1		2H
+29 Zweihander		4d6	$580	28lbs		40/3		2H
+
+22 Great Scimitar		5d4	$500	24lbs		40/3		2H
+
+30 Blade Chaos		6d5	$4000	18lbs		70/8
+
+31 Diamond Edge		7d5	$50k	15lbs		90/16		VORPAL

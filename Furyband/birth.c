@@ -143,7 +143,7 @@ void print_desc_aux(cptr txt, int y, int xx)
 	}
 }
 
-void print_desc(cptr txt)
+static void print_desc(cptr txt)
 {
 	print_desc_aux(txt, 12, 1);
 }
@@ -204,7 +204,7 @@ static void load_prev_data(bool save)
 {
 	int i;
 
-	birther temp;
+	birther temp = {0};
 
 
 	/*** Save the current data ***/
@@ -378,7 +378,7 @@ static void get_stats(void)
 
 	int bonus;
 
-	int dice[18];
+	int dice[18] = {0};
 
 
 	/* Roll and verify some stats */
@@ -451,7 +451,7 @@ static void get_stats(void)
 	}
 
 	/* Get luck */
-	p_ptr->luck_base = rp_ptr->luck + rmp_ptr->luck + rand_range( -5, 5);
+	p_ptr->luck_base = rp_ptr->luck + rmp_ptr->luck + (s16b)rand_range(-5, 5);
 	p_ptr->luck_max = p_ptr->luck_base;
 }
 
@@ -546,7 +546,7 @@ static void get_history(void)
 
 	char *s, *t;
 
-	char buf[240];
+	char buf[240] = { 0 };
 
 
 	/* Clear the previous history strings */
@@ -665,8 +665,8 @@ errr init_randart(void)
 		strcpy(ra_ptr->name_full,
 		       get_line("rart_f.txt", ANGBAND_DIR_FILE, buf, i));
 
-		ra_ptr->attr = randint(15);
-		ra_ptr->activation = rand_int(MAX_T_ACT);
+		ra_ptr->attr = (byte_hack)randint(15);
+		ra_ptr->activation = (byte_hack)rand_int(MAX_T_ACT);
 		ra_ptr->generated = FALSE;
 
 		cost = randnor(0, 250);
@@ -741,7 +741,7 @@ static void get_ahw(void)
 {
 	/* Calculate the age */
 	p_ptr->age = rp_ptr->b_age + rmp_ptr->b_age +
-	             randint(rp_ptr->m_age + rmp_ptr->m_age);
+	             (s16b)randint(rp_ptr->m_age + rmp_ptr->m_age);
 
 	/* Calculate the height/weight */
 	get_height_weight();
@@ -1063,9 +1063,9 @@ static void player_wipe(void)
 
 
 /* Create an object */
-void outfit_obj(int tv, int sv, int pval, int dd, int ds)
+static void outfit_obj(int tv, int sv, int pval, int dd, int ds)
 {
-	object_type forge;
+	object_type forge = { 0 };
 	object_type *q_ptr;
 
 	/* Get local object */
@@ -1092,7 +1092,7 @@ void outfit_obj(int tv, int sv, int pval, int dd, int ds)
 #endif
 	/* These objects are "storebought" */
 	q_ptr->ident |= IDENT_MENTAL;
-	q_ptr->number = damroll(dd, ds);
+	q_ptr->number = (byte_hack)damroll(dd, ds);
 
 	object_aware(q_ptr);
 	object_known(q_ptr);
@@ -1109,7 +1109,7 @@ static void player_outfit(void)
 {
 	int i;
 
-	object_type forge;
+	object_type forge = { 0 };
 
 	object_type *q_ptr;
 
@@ -1155,7 +1155,7 @@ static void player_outfit(void)
 		/* Hack -- Give the player some torches */
 		object_prep(q_ptr, lookup_kind(TV_LITE, SV_LITE_TORCH));
 		q_ptr->number = (byte)rand_range(3, 7);
-		q_ptr->timeout = rand_range(3, 7) * 500;
+		q_ptr->timeout = (s16b)rand_range(3, 7) * 500;
 		object_aware(q_ptr);
 		object_known(q_ptr);
 		(void)inven_carry(q_ptr, FALSE);
@@ -1167,9 +1167,9 @@ static void player_outfit(void)
 	/* Rogues have a better knowledge of traps */
 	if (has_ability(AB_TRAPPING))
 	{
-		t_info[TRAP_OF_DAGGER_I].known = randint(50) + 50;
-		t_info[TRAP_OF_POISON_NEEDLE].known = randint(50) + 50;
-		t_info[TRAP_OF_FIRE_BOLT].known = randint(50) + 50;
+		t_info[TRAP_OF_DAGGER_I].known = (s16b)randint(50) + 50;
+		t_info[TRAP_OF_POISON_NEEDLE].known = (s16b)randint(50) + 50;
+		t_info[TRAP_OF_FIRE_BOLT].known = (s16b)randint(50) + 50;
 		t_info[TRAP_OF_DAGGER_I].ident = TRUE;
 		t_info[TRAP_OF_POISON_NEEDLE].ident = TRUE;
 		t_info[TRAP_OF_FIRE_BOLT].ident = TRUE;
@@ -1336,7 +1336,7 @@ static void gen_random_quests(int n)
 	dungeon_type = old_type;
 }
 
-int dump_classes(s16b *classes, int sel, u32b *restrict)
+static int dump_classes(s16b *classes, int sel, u32b *restrict)
 {
 	int n = 0;
 
@@ -1356,7 +1356,7 @@ int dump_classes(s16b *classes, int sel, u32b *restrict)
 		char p2 = ')', p1 = ' ';
 
 		/* Analyze */
-		p_ptr->pclass = classes[n];
+		p_ptr->pclass = (byte_hack)classes[n];
 		cp_ptr = &class_info[p_ptr->pclass];
 		str = cp_ptr->title + c_name;
 
@@ -1399,7 +1399,7 @@ int dump_classes(s16b *classes, int sel, u32b *restrict)
 	return (n);
 }
 
-int dump_specs(int sel)
+static int dump_specs(int sel)
 {
 	int n = 0;
 
@@ -1460,7 +1460,7 @@ int dump_specs(int sel)
 	return (n);
 }
 
-int dump_races(int sel)
+static int dump_races(int sel)
 {
 	int n = 0;
 
@@ -1519,7 +1519,7 @@ int dump_races(int sel)
 }
 
 
-int dump_rmods(int sel, int *racem, int max)
+static int dump_rmods(int sel, int *racem, int max)
 {
 	int n = 0;
 
@@ -1581,7 +1581,7 @@ int dump_rmods(int sel, int *racem, int max)
 	return (n);
 }
 
-int dump_gods(int sel, int *choice, int max)
+static int dump_gods(int sel, int *choice, int max)
 {
 	int i, j;
 	char buf[80];
@@ -1648,9 +1648,9 @@ static bool player_birth_aux_ask()
 
 	s32b tmp;
 
-	int racem[100], max_racem = 0;
+	int racem[100] = { 0 }, max_racem = 0;
 
-	u32b restrict[2];
+	u32b restrict[2] = { 0 };
 
 	cptr str;
 
@@ -2149,7 +2149,7 @@ static bool player_birth_aux_ask()
 			message_add(MESSAGE_MSG, "***************************", TERM_VIOLET);
 		}
 #endif
-		p_ptr->pclass = class_types[k];
+		p_ptr->pclass = (byte_hack)class_types[k];
 
 		/* Choose class spec */
 		clear_from(15);
@@ -2411,7 +2411,7 @@ static bool player_birth_aux_ask()
 
 	/* Set the recall dungeon accordingly */
 	call_lua("get_module_info", "(s)", "d", "base_dungeon", &tmp);
-	dungeon_type = tmp;
+	dungeon_type = (byte_hack)tmp;
 	p_ptr->recall_dungeon = dungeon_type;
 	max_dlv[dungeon_type] = d_info[dungeon_type].mindepth;
 
@@ -2420,7 +2420,7 @@ static bool player_birth_aux_ask()
 		s32b x, y, astral_dun;
 
 		call_lua("get_module_info", "(s)", "d", "astral_dungeon", &astral_dun);
-		dungeon_type = astral_dun;
+		dungeon_type = (byte_hack)astral_dun;
 
 		/* Somewhere in the misty mountains */
 		call_lua("get_module_info", "(s)", "d", "astral_wild_x", &x);
@@ -2567,7 +2567,7 @@ static bool player_birth_aux_point(void)
 
 	int stat = 0;
 
-	int stats[6];
+	int stats[6] = { 0 };
 
 	int cost;
 
@@ -2599,10 +2599,10 @@ static bool player_birth_aux_point(void)
 	process_hooks(HOOK_BIRTH, "()");
 
 	/* Hack -- get a chaos patron even if you are not a chaos warrior */
-	p_ptr->chaos_patron = (randint(MAX_PATRON)) - 1;
+	p_ptr->chaos_patron = (s16b)(randint(MAX_PATRON)) - 1;
 
 	/* Get luck */
-	p_ptr->luck_base = rp_ptr->luck + rmp_ptr->luck + rand_range( -5, 5);
+	p_ptr->luck_base = rp_ptr->luck + rmp_ptr->luck + (s16b)rand_range( -5, 5);
 	p_ptr->luck_max = p_ptr->luck_base;
 
 	/* Interact */
@@ -2761,7 +2761,7 @@ static bool player_birth_aux_auto()
 	/* Initialize */
 	if (autoroll)
 	{
-		int mval[6];
+		int mval[6] = { 0 };
 
 
 		/* Clear fields */
@@ -2991,7 +2991,7 @@ static bool player_birth_aux_auto()
 		process_hooks(HOOK_BIRTH, "()");
 
 		/* Hack -- get a chaos patron even if you are not a chaos warrior */
-		p_ptr->chaos_patron = (randint(MAX_PATRON)) - 1;
+		p_ptr->chaos_patron = (s16b)(randint(MAX_PATRON)) - 1;
 
 		/* Input loop */
 		while (TRUE)
@@ -3091,7 +3091,7 @@ static bool player_birth_aux()
 
 	int y = 0, x = 0;
 
-	char old_history[4][60];
+	char old_history[4][60] = { 0 };
 
 	int i, j;
 
@@ -3309,7 +3309,7 @@ static void validate_bg(void)
 {
 	int i, race;
 
-	bool chart_checked[512];
+	bool chart_checked[512] = { 0 };
 
 	char buf[1024];
 
@@ -3332,7 +3332,7 @@ static void validate_bg(void)
 /*
  * Initialize a random town
  */
-void init_town(int t_idx, int level)
+static void init_town(int t_idx, int level)
 {
 	town_type *t_ptr = &town_info[t_idx];
 
@@ -3539,7 +3539,7 @@ int savefile_idx[46];
 /*
  * Grab all the names from an index
  */
-int load_savefile_names()
+static int load_savefile_names()
 {
 	FILE *fff;
 	char buf[1024];
